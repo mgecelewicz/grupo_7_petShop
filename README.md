@@ -1,7 +1,7 @@
 # grupo_7_petShop
 Proyecto Integrador Digital House
 
-
+Referencias:
 https://www.puppis.com.ar/
 https://www.mispichos.com/
 https://www.petmania.com.ar/
@@ -15,4 +15,8 @@ NUESTRO PETSHOP, OFRECE PRODUCTOS Y SERVICIOS PARA GRAN VARIEDAD DE MASCOTAS. PE
 CON ALIMENTOS BALANCEADOS, COMESTIBLES, JUGUETES Y ACCESORIOS.
 
 
-Spiritini Luca
+Molina Matías : .
+Spiritini Luca : 2 perros y algunos peces, platense viviendo en CABA, acróbata, en pareja hace 10 años.
+Gecelewicz Mariano : .
+Murarotto Luca Santino : .
+Caputo Miguel : .
