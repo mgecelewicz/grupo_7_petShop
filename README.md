@@ -1,22 +1,52 @@
 # grupo_7_petShop
 Proyecto Integrador Digital House
 
-Referencias:
-https://www.puppis.com.ar/
-https://www.mispichos.com/
+URL DEL REPOSITORIO
+https://github.com
+
+PROYECTO INTEGRADOR PETIT AND FUN - PETSHOP -
+
+PRESENTACIóN
+https://www.canva.com/design/DAE8Y-rq0ZM/CYEuYDIHcoeUiv7lCVz0DA/view?utm_content=DAE8Y-rq0ZM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+¿QUÉ PRODUCTOS O SERVICIOS BRINDARÁ NUESTRO SITIO?
+Nuestro sitio web ofrece productos y servicios para gran variedad de mascotas. 
+
+Desde perros y gatos hasta aves y peces Con alimentos balanceados, comestibles, juguetes y accesorios...
+
+- Alimentos balanceados
+- juguetes
+- accesorios
+
+¿QUIÉN SERÁ NUESTRA AUDIENCIA OBJETIVO? 
+Nuestro público o audiencia objetivo, son aquellos amantes de sus mascotas, que consideran que ellas son su bien más preciado y su momento de diversión, por eso eligen lo mejor para ellos: Una buena alimentación con productos de calidad y juguetes que les permitan interactuar con ellos. 
+
+¿CÓMO AJUSTAREMOS NUESTRA OFERTA A ESE PÚBLICO?
+En PetitandFun entendemos que nuestros usuarios no solo buscan un producto sino un momento para recrear el vínculo. Por ello nuestro sitio ofrece servicios y un reseñas para ayudarlos a mejorar ese vínculo y un servicio de entrega de productos a domicilio, para que la única preocupación sea su mascota. Nuestro sitio web permite adquirir una variedad de productos y servicios como contactarnos para recibir asesoramiento inmediato.
+
+NOSOTROS
+Somos un equipo de emprendedores entusiastas que entendemos el vínculo entre una persona y su mascota, creeemos que llevar productos y servicios de calidad a traves de una plataforma entretenida es la mejor forma de satisfacer esa necesidad.
+
+Nuestro DEV Team, está compuesto por:
+
+- Luca Santino Murarotto
+- Luca Spiritini
+- Mariano Javier Gecelewicz
+- Matias Molina
+- Miguel Caputo
+
+SITIOS WEB DE REFERENCIA
+https://www.puppis.com.ar/ 
+Un sitio con mucha información y gran cantidad de productos y promociones
+
+https://www.petmarket.com.ar/
+Simple y sencilla, visualmente atractiva
+
+https://www.natural-life.com.ar/
+Otro sitio simple visualmente pero muy sencilla de navegar
+
 https://www.petmania.com.ar/
-https://www.timoteopetshop.com/
+Muy amigable e intuitivo
+
 https://www.catycan.com/
-
-Nuestro público ama a sus mascotas, son su bien más preciado y un momento de diversión, por eso eligen lo mejor para ellos: Una buena alimentación con productos de calidad y juguetes que les permitan interactuar con ellos.
-En "PetitandFun" entendemos que nuestros usuarios no solo buscan un producto sino un momento para reforzar el vínculo.
-Tenemos como compromiso dar soluciones a medida, y un conjunto de servicios que permitan acompañar las diferentes etapas de su mascota ofreciendo mejor calidad de vida y productos de calidad para la caidad de vida de su mascota.
-NUESTRO PETSHOP, OFRECE PRODUCTOS Y SERVICIOS PARA GRAN VARIEDAD DE MASCOTAS. PERROS, GATOS, AVES Y PECES.
-CON ALIMENTOS BALANCEADOS, COMESTIBLES, JUGUETES Y ACCESORIOS.
-
-
-Molina Matías : .
-Spiritini Luca : 2 perros y algunos peces, platense viviendo en CABA, acróbata, en pareja hace 10 años.
-Gecelewicz Mariano : .
-Murarotto Luca Santino : .
-Caputo Miguel : .
+Variedad de alternativas en productos para todos los consumidores de productos para mascotas
