@@ -1,10 +1,12 @@
 * {
   margin: 0%;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: white;
 }
 header {
   width: 100vw;
-  background-color: aqua;
+  background-color: rgb(111, 11, 204);
 }
 header article {
   display: flex;
@@ -17,36 +19,87 @@ header article {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  padding: 1px;
+  padding: 0.5%;
 }
 .topHeader div {
-  border: 1px solid red;
   width: 50%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+.topHeader p {
+  margin-left: 4%;
 }
 .centerHeader {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
-  padding: 1px;
+  padding: 0.5%;
   height: 10vh;
 }
-.centerHeader div {
-  border: 1px solid red;
-  width: 33%;
-  text-align: center;
+.centerHeader div#menu {
+  width: 10%;
+  margin: auto;
+}
+.centerHeader div#menu i {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerHeader div#logo {
+  width: 80%;
+}
+.centerHeader div#usuario {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.centerHeader div#usuario i {
+}
+
+.centerHeader img {
+  width: 100%;
+  height: 100%;
 }
 .bottomHeader {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0.5%;
 }
 .bottomHeader form {
   width: 70%;
   margin: auto;
+  padding-bottom: 1%;
 }
 .bottomHeader form input {
   width: 90%;
   border-radius: 10px;
+}
+.bottomHeader ul {
+  display: none;
+  list-style: none;
+}
+.bottomHeader li {
+  display: inline-flex;
+  border: 1px solid;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 0.5%;
+}
+
+@media (min-width: 481px) {
+  .bottomHeader ul {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
 }
