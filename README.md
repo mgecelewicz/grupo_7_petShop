@@ -1,8 +1,12 @@
 # grupo_7_petShop
+
 Proyecto Integrador Digital House
 
 URL DEL REPOSITORIO
-https://github.com
+https://github.com/MatiMolinamm/grupo_7_petShop.git
+
+URL DEL TRELLO
+https://trello.com/b/Ei16JNvi/spring-1-proyecto-integrador-digital-house
 
 PROYECTO INTEGRADOR PETIT AND FUN - PETSHOP -
 
@@ -10,7 +14,7 @@ PRESENTACIóN
 https://www.canva.com/design/DAE8Y-rq0ZM/CYEuYDIHcoeUiv7lCVz0DA/view?utm_content=DAE8Y-rq0ZM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ¿QUÉ PRODUCTOS O SERVICIOS BRINDARÁ NUESTRO SITIO?
-Nuestro sitio web ofrece productos y servicios para gran variedad de mascotas. 
+Nuestro sitio web ofrece productos y servicios para gran variedad de mascotas.
 
 Desde perros y gatos hasta aves y peces Con alimentos balanceados, comestibles, juguetes y accesorios...
 
@@ -18,8 +22,8 @@ Desde perros y gatos hasta aves y peces Con alimentos balanceados, comestibles, 
 - juguetes
 - accesorios
 
-¿QUIÉN SERÁ NUESTRA AUDIENCIA OBJETIVO? 
-Nuestro público o audiencia objetivo, son aquellos amantes de sus mascotas, que consideran que ellas son su bien más preciado y su momento de diversión, por eso eligen lo mejor para ellos: Una buena alimentación con productos de calidad y juguetes que les permitan interactuar con ellos. 
+¿QUIÉN SERÁ NUESTRA AUDIENCIA OBJETIVO?
+Nuestro público o audiencia objetivo, son aquellos amantes de sus mascotas, que consideran que ellas son su bien más preciado y su momento de diversión, por eso eligen lo mejor para ellos: Una buena alimentación con productos de calidad y juguetes que les permitan interactuar con ellos.
 
 ¿CÓMO AJUSTAREMOS NUESTRA OFERTA A ESE PÚBLICO?
 En PetitandFun entendemos que nuestros usuarios no solo buscan un producto sino un momento para recrear el vínculo. Por ello nuestro sitio ofrece servicios y un reseñas para ayudarlos a mejorar ese vínculo y un servicio de entrega de productos a domicilio, para que la única preocupación sea su mascota. Nuestro sitio web permite adquirir una variedad de productos y servicios como contactarnos para recibir asesoramiento inmediato.
@@ -36,7 +40,7 @@ Nuestro DEV Team, está compuesto por:
 - Miguel Caputo
 
 SITIOS WEB DE REFERENCIA
-https://www.puppis.com.ar/ 
+https://www.puppis.com.ar/
 Un sitio con mucha información y gran cantidad de productos y promociones
 
 https://www.petmarket.com.ar/

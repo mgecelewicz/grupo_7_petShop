@@ -14,6 +14,23 @@ header article {
   flex-direction: column;
   justify-content: space-between;
 }
+.register {
+  background-color: chartreuse;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+}
+.register div {
+  margin-top: 5px;
+}
+.register input {
+  color: black;
+  width: 50vw;
+}
+.register button {
+  color: rgb(111, 11, 204);
+  font-weight: 900;
+}
 .topHeader {
   display: flex;
   flex-wrap: wrap;
@@ -98,6 +115,9 @@ header article {
     display: inline-flex;
     justify-content: space-around;
     width: 100%;
+  }
+  .centerHeader #menu {
+    display: none;
   }
 }
 
