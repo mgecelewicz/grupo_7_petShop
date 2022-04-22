@@ -27,9 +27,20 @@ header article {
   color: black;
   width: 50vw;
 }
+
 .register button {
   color: rgb(111, 11, 204);
   font-weight: 900;
+}
+.linkto {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  font-size: 12px;
+}
+.linkto a {
+  margin-right: 15px;
+  text-decoration: none;
 }
 .topHeader {
   display: flex;
