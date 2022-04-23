@@ -56,6 +56,7 @@ header article {
   justify-content: space-around;
   padding: 0.5%;
   height: 10vh;
+  align-items: center;
 }
 .centerHeader div#menu {
   width: 10%;
@@ -67,9 +68,12 @@ header article {
   justify-content: center;
   align-items: center;
 }
+.centerHeader form#searchBar {
+  width: 30%;
+}
 
 .centerHeader div#logo {
-  width: 80%;
+  width: 40%;
 }
 .centerHeader div#usuario {
   width: 10%;
