@@ -1,7 +1,7 @@
 * {
-  margin: 0%;
+  margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
+  font-family: 'Fredoka One', cursive;
   color: white;
 }
 
@@ -9,29 +9,41 @@ header {
   width: 100vw;
   background-color: #8c52ff;
 }
+
 header article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .register {
-  background-color: chartreuse;
+  align-items: center;
+  background-color: rgb(154 158 158);
+  ;
   padding: 20px;
   display: flex;
   flex-flow: column;
 }
+
 .register div {
   margin-top: 5px;
 }
+
 .register input {
+  border-radius: 5px;
+  border: none;
   color: black;
+  padding: 7px;
   width: 50vw;
+
 }
+
 .register button {
   color: rgb(111, 11, 204);
   font-weight: 900;
 }
+
 .topHeader {
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +51,7 @@ header article {
   justify-content: space-around;
   padding: 0.5%;
 }
+
 .topHeader div {
   width: 50%;
   text-align: center;
@@ -46,9 +59,11 @@ header article {
   justify-content: center;
   font-size: 1rem;
 }
+
 .topHeader p {
   margin-left: 4%;
 }
+
 .centerHeader {
   display: flex;
   flex-wrap: nowrap;
@@ -58,16 +73,19 @@ header article {
   height: 10vh;
   align-items: center;
 }
+
 .centerHeader div#menu {
   width: 10%;
   margin: auto;
 }
+
 .centerHeader div#menu i {
   display: flex;
   width: 80%;
   justify-content: center;
   align-items: center;
 }
+
 .centerHeader form#searchBar {
   width: 30%;
 }
@@ -75,12 +93,14 @@ header article {
 .centerHeader div#logo {
   width: 40%;
 }
+
 .centerHeader div#usuario {
   width: 10%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .centerHeader div#usuario i {
   font-size: 1.5rem;
 }
@@ -89,31 +109,46 @@ header article {
   width: 260px;
   padding: 10px;
 }
+
 .bottomHeader {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0.5%;
 }
+
 .bottomHeader form {
   width: 70%;
   margin: auto;
   padding-bottom: 1%;
 }
+
 .bottomHeader form input {
   width: 90%;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: none;
 }
+
 .bottomHeader ul {
   display: none;
   list-style: none;
 }
+
 .bottomHeader li {
+  /* color: white;*/
   display: inline-flex;
-  border: 1px solid;
+  border: none;
   border-radius: 6px;
   font-weight: bold;
   padding: 0.5%;
+}
+
+nav.menu {
+  align-items: center;
+  background-color: blueviolet;
+  display: flex;
+  height: 50px;
+  width: 100vw;
 }
 
 @media (min-width: 481px) {
@@ -122,10 +157,10 @@ header article {
     justify-content: space-around;
     width: 100%;
   }
+
   .centerHeader #menu {
     display: none;
   }
 }
 
-@media (min-width: 769px) {
-}
+@media (min-width: 769px) {}
