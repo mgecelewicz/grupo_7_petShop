@@ -5,6 +5,70 @@
   color: white;
 }
 
+div.agregaralcarrito {
+  padding: 5px;
+}
+
+div.cantidaddeproducto {
+  display: flex;
+}
+
+div.pesoproducto {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+div a.botonpesoproducto {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+div a.botonpesoproducto:hover {
+  background-color: grey;
+  color: white;
+}
+
+div button.botonagregaralcarrito {
+  background-color: rgb(122, 122, 230);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 43px;
+  margin: auto;
+}
+
+div.ordencarrito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.precioystock {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+div p.precio {
+  width: 50%;
+ 
+}
+
+div p.stock {
+  width: 50%;
+  display: inline-block;
+}
+
+div input.inputcantidaddeproducto {
+  width: 43px;
+  height: 43px;
+}
+
 header {
   width: 100vw;
   background-color: #8c52ff;
@@ -15,6 +79,39 @@ header article {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
+}
+main div.descripcionproducto {
+  padding: 25px;
+}
+
+main article.detalleproductos {
+  display: flex;
+}
+
+main h2 {
+  color: #45B1CE;
+  padding: 5px
+}
+
+main article.imagenproducto img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  padding: 25px;
+}
+
+main article.resumenproducto {
+  padding: 25px;
+}
+
+main h1.tituloresumenproducto {
+  color: #666666;
+  padding: 5px;
+}
+
+main p {
+  color: #666666;
+  padding: 5px
 }
 
 .register {
