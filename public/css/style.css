@@ -14,34 +14,8 @@ header article {
   flex-direction: column;
   justify-content: space-between;
 }
-.register {
-  background-color: chartreuse;
-  padding: 20px;
-  display: flex;
-  flex-flow: column;
-}
-.register div {
-  margin-top: 5px;
-}
-.register input {
-  color: black;
-  width: 50vw;
-}
 
-.register button {
-  color: rgb(111, 11, 204);
-  font-weight: 900;
-}
-.linkto {
-  display: flex;
-  justify-content: space-evenly;
-  max-width: 400px;
-  font-size: 12px;
-}
-.linkto a {
-  margin-right: 15px;
-  text-decoration: none;
-}
+/*------Clases del Header-----------*/
 .topHeader {
   display: flex;
   flex-wrap: wrap;
@@ -96,6 +70,7 @@ header article {
 }
 .bottomHeader {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0.5%;
@@ -119,6 +94,82 @@ header article {
   border-radius: 6px;
   font-weight: bold;
   padding: 0.5%;
+}
+.fa-magnifying-glass:before,
+.fa-search:before {
+  color: rgb(66, 64, 64);
+  content: "\f002";
+  position: relative;
+  left: -26px;
+}
+/*---------------------*/
+
+/* seccion principal */
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  margin: auto;
+  height: 40vh;
+}
+.productosDestacados {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+h2.productosDestacados {
+  font-size: 16px;
+  justify-content: left;
+  padding: 5px;
+}
+
+.productos {
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+}
+
+.productos img {
+  width: 100%;
+}
+/* footer*/
+footer {
+  background-color: blueviolet;
+}
+footer img {
+  width: 40%;
+}
+
+.register {
+  background-color: chartreuse;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+}
+.register div {
+  margin-top: 5px;
+}
+.register input {
+  color: black;
+  width: 50vw;
+}
+
+.register button {
+  color: rgb(111, 11, 204);
+  font-weight: 900;
+}
+.linkto {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  font-size: 12px;
+}
+.linkto a {
+  margin-right: 15px;
+  text-decoration: none;
 }
 
 @media (min-width: 481px) {
