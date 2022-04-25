@@ -5,8 +5,13 @@
   color: white;
 }
 
+div button.masproducto, div button.menosproducto {
+  color: black;
+}
+
 div.agregaralcarrito {
   padding: 5px;
+  width: 100%;
 }
 
 div.cantidaddeproducto {
@@ -40,12 +45,12 @@ div button.botonagregaralcarrito {
   color: white;
   height: 43px;
   margin: auto;
+  width: 100%;
 }
 
 div.ordencarrito {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 div.precioystock {
@@ -56,7 +61,6 @@ div.precioystock {
 
 div p.precio {
   width: 50%;
- 
 }
 
 div p.stock {
@@ -67,6 +71,7 @@ div p.stock {
 div input.inputcantidaddeproducto {
   width: 43px;
   height: 43px;
+  text-align: center;
 }
 
 header {
@@ -80,12 +85,15 @@ header article {
   flex-direction: column;
   justify-content: space-between;
 }
+
 main div.descripcionproducto {
   padding: 25px;
+  width: 100%;
 }
 
 main article.detalleproductos {
   display: flex;
+  flex-wrap: wrap;
 }
 
 main h2 {
@@ -101,7 +109,8 @@ main article.imagenproducto img {
 }
 
 main article.resumenproducto {
-  padding: 25px;
+  padding: 25px;  
+  width: 100%;
 }
 
 main h1.tituloresumenproducto {
@@ -260,4 +269,10 @@ nav.menu {
   }
 }
 
-@media (min-width: 769px) {}
+@media (min-width: 769px) {
+
+main article.resumenproducto {
+  width: 40%;
+}
+
+}
