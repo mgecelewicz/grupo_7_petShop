@@ -6,13 +6,17 @@
 }
 header {
   width: 100vw;
-  background-color: rgb(111, 11, 204);
+  background-color: rgb(141, 74, 204);
 }
 header article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
+}
+
+main {
+  background-color: #ebebeb;
 }
 
 /*------Clases del Header-----------*/
@@ -39,7 +43,7 @@ header article {
   flex-direction: row;
   justify-content: space-around;
   padding: 0.5%;
-  height: 10vh;
+  height: 51px;
 }
 .centerHeader div#menu {
   width: 10%;
@@ -54,6 +58,8 @@ header article {
 
 .centerHeader div#logo {
   width: 80%;
+  display: flex;
+  justify-content: center;
 }
 .centerHeader div#usuario {
   width: 10%;
@@ -61,12 +67,9 @@ header article {
   justify-content: space-around;
   align-items: center;
 }
-.centerHeader div#usuario i {
-}
 
 .centerHeader img {
-  width: 100%;
-  height: 100%;
+  width: 27%;
 }
 .bottomHeader {
   display: flex;
@@ -74,15 +77,25 @@ header article {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0.5%;
+  margin-top: 5px;
 }
 .bottomHeader form {
+  display: flex;
   width: 70%;
   margin: auto;
   padding-bottom: 1%;
 }
+.bottomHeader button {
+  background-color: rgb(141, 74, 204);
+  border: none;
+}
+.bottomHeader button :hover {
+  cursor: pointer;
+}
 .bottomHeader form input {
   width: 90%;
   border-radius: 10px;
+  color: black;
 }
 .bottomHeader ul {
   display: none;
@@ -90,18 +103,15 @@ header article {
 }
 .bottomHeader li {
   display: inline-flex;
-  border: 1px solid;
-  border-radius: 6px;
   font-weight: bold;
   padding: 0.5%;
 }
 .fa-magnifying-glass:before,
 .fa-search:before {
-  color: rgb(66, 64, 64);
+  color: white;
   content: "\f002";
-  position: relative;
-  left: -26px;
 }
+
 /*---------------------*/
 
 /* seccion principal */
@@ -109,12 +119,17 @@ header article {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
-  margin: auto;
+  background-color: #ebebeb;
+  margin: 10px;
   height: 40vh;
+  border: solid black 2px;
+}
+
+.carrusel h2 {
+  color: black;
 }
 .productosDestacados {
-  background-color: black;
+  background-color: #ebebeb;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -124,42 +139,67 @@ h2.productosDestacados {
   font-size: 16px;
   justify-content: left;
   padding: 5px;
+  color: black;
+  margin-bottom: 20px;
 }
 
 .productos {
-  width: 40%;
-  padding: 10px;
+  width: 70%;
+  padding: 15px;
   text-align: center;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  margin-bottom: 20px;
 }
-
+.productos h3 {
+  color: black;
+}
 .productos img {
   width: 100%;
 }
+.productos p {
+  color: black;
+}
 /* footer*/
 footer {
-  background-color: blueviolet;
+  background-color: #ebebeb;
+  margin: 10px;
+  text-align: center;
 }
 footer img {
   width: 40%;
 }
+footer li {
+  color: black;
+  list-style: none;
+}
 
 .register {
-  background-color: chartreuse;
+  background-color: #ebebeb;
   padding: 20px;
   display: flex;
   flex-flow: column;
+}
+.register h2 {
+  color: black;
 }
 .register div {
   margin-top: 5px;
 }
 .register input {
-  color: black;
+  color: rgb(111, 11, 204);
   width: 50vw;
 }
 
 .register button {
   color: rgb(111, 11, 204);
   font-weight: 900;
+  transition: 650ms;
+}
+.register button:hover {
+  background-color: rgb(111, 11, 204);
+  color: white;
+  font-weight: 900;
+  border: none;
 }
 .linkto {
   display: flex;
@@ -174,14 +214,20 @@ footer img {
 
 @media (min-width: 481px) {
   .bottomHeader ul {
-    display: inline-flex;
-    justify-content: space-around;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
   }
   .centerHeader #menu {
     display: none;
   }
+  .productos {
+    width: 40%;
+  }
 }
 
 @media (min-width: 769px) {
+  .productos {
+    width: 21%;
+  }
 }
