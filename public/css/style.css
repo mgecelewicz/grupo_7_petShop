@@ -1,80 +1,7 @@
 * {
   margin: 0%;
   box-sizing: border-box;
-<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
-=======
-
-}
-
-div button.masproducto, div button.menosproducto {
-  color: black;
-}
-
-div.agregaralcarrito {
-  padding: 5px;
-  width: 100%;
-}
-
-div.cantidaddeproducto {
-  display: flex;
-}
-
-div.pesoproducto {
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-}
-
-div a.botonpesoproducto {
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid black;
-  color: black;
-  text-decoration: none;
-  padding: 10px;
-}
-
-div a.botonpesoproducto:hover {
-  background-color: grey;
-  color: white;
-}
-
-div button.botonagregaralcarrito {
-  background-color: rgb(122, 122, 230);
-  border: none;
-  border-radius: 5px;
-  color: white;
-  height: 43px;
-  margin: auto;
-  width: 100%;
-}
-
-div.ordencarrito {
-  display: flex;
-  align-items: center;
-}
-
-div.precioystock {
-  display: flex;
-  padding: 5px;
-  justify-content: space-around;
-}
-
-div p.precio {
-  width: 50%;
-}
-
-div p.stock {
-  width: 50%;
-  display: inline-block;
-}
-
-div input.inputcantidaddeproducto {
-  width: 43px;
-  height: 43px;
-  text-align: center;
->>>>>>> refs/remotes/origin/main
 }
 
 header {
@@ -89,14 +16,11 @@ header article {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 main {
   background-color: #ffffff;
 }
 
 /*------Clases del Header-----------*/
-=======
->>>>>>> refs/remotes/origin/main
 .topHeader {
   display: flex;
   flex-wrap: wrap;
@@ -137,10 +61,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/main
 .centerHeader div#logo {
   width: 80%;
   display: flex;
@@ -174,7 +95,6 @@ main {
   padding-bottom: 1%;
 }
 
-<<<<<<< HEAD
 .bottomHeader button {
   background-color: rgb(141, 74, 204);
   border: none;
@@ -188,8 +108,6 @@ main {
   width: 90%;
   border-radius: 10px;
   color: black;
-=======
->>>>>>> refs/remotes/origin/main
 }
 
 .bottomHeader ul {
@@ -203,14 +121,12 @@ main {
   padding: 0.5%;
 }
 
-<<<<<<< HEAD
 .fa-magnifying-glass:before,
 .fa-search:before {
   color: white;
   content: "\f002";
 }
 
-/*---------------------*/
 
 /* seccion principal */
 .carrusel {
@@ -324,34 +240,34 @@ footer li {
   text-decoration: none;
 }
 
-/*!Mariano*/
-Seccion detalle producto 
+ /*Mariano*/
+/*Seccion detalle producto */
 
 div form button.sumaryrestarproducto {
   background-color: red;
   color: red;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div.agregaralcarrito {
   padding: 5px;
   width: 50%;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div.cantidaddeproducto {
   display: flex;
   margin-right: 1em;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div.pesoproducto {
   display: flex;
   text-align: left;
   padding: 20px 0px;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div a.botonpesoproducto {
   background-color: white;
   border-radius: 20px;
@@ -362,13 +278,13 @@ div a.botonpesoproducto {
   padding: 10px;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div a.botonpesoproducto:hover {
   background-color: rgb(84, 108, 247);
   color: white;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div button.botonagregaralcarrito {
   background-color: rgb(122, 122, 230);
   border: none;
@@ -379,38 +295,38 @@ div button.botonagregaralcarrito {
   width: 180px
 }
 
-/*Mariano*/
+ /*Mariano*/
 div.ordencarrito {
   display: flex;
   align-items: center;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div.precioystock {
   display: flex;
   padding: 5px;
   justify-content: space-around;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div p.precio {
   width: 50%;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div p.stock {
   width: 50%;
   display: inline-block;
 }
 
-/*Mariano*/
+ /*Mariano*/
 div input.inputcantidaddeproducto {
   width: 43px;
   height: 43px;
   text-align: center;
 }
 
-/*Mariano*/
+ /*Mariano*/
 main article.imagenproducto img {
   height: auto;
   max-width: 100%;
@@ -418,32 +334,30 @@ main article.imagenproducto img {
   padding: 25px;
 }
 
-/*Mariano*/
+ /*Mariano*/
 main article.resumenproducto {
   padding: 25px;
   width: 100%;
 }
 
-/*Mariano*/
+ /*Mariano*/
 main h1.tituloresumenproducto {
   color: #666666;
   padding: 5px;
 }
 
-/*Mariano*/
+ /*Mariano*/
 main div.descripcionproducto {
   padding: 25px;
   width: 100%;
 }
 
-/*Mariano*/
+ /*Mariano*/
 main article.detalleproductos {
   display: flex;
   flex-wrap: wrap;
 }
 
-=======
->>>>>>> refs/remotes/origin/main
 @media (min-width: 481px) {
   .bottomHeader ul {
     display: flex;
@@ -460,7 +374,6 @@ main article.detalleproductos {
   }
 }
 
-<<<<<<< HEAD
 @media (min-width: 769px) {
   .productos {
     width: 21%;
@@ -484,6 +397,3 @@ main article.detalleproductos {
     padding: 0px 40px;
   }
 }
-=======
-@media (min-width: 769px) {
->>>>>>> refs/remotes/origin/main
