@@ -23,6 +23,3 @@ app.get("/producto", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/producto.html"));
 });
 
-app.get("/register", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./views/register.html"));
-});

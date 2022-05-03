@@ -1,7 +1,80 @@
 * {
   margin: 0%;
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
+=======
+
+}
+
+div button.masproducto, div button.menosproducto {
+  color: black;
+}
+
+div.agregaralcarrito {
+  padding: 5px;
+  width: 100%;
+}
+
+div.cantidaddeproducto {
+  display: flex;
+}
+
+div.pesoproducto {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+div a.botonpesoproducto {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+div a.botonpesoproducto:hover {
+  background-color: grey;
+  color: white;
+}
+
+div button.botonagregaralcarrito {
+  background-color: rgb(122, 122, 230);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 43px;
+  margin: auto;
+  width: 100%;
+}
+
+div.ordencarrito {
+  display: flex;
+  align-items: center;
+}
+
+div.precioystock {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+div p.precio {
+  width: 50%;
+}
+
+div p.stock {
+  width: 50%;
+  display: inline-block;
+}
+
+div input.inputcantidaddeproducto {
+  width: 43px;
+  height: 43px;
+  text-align: center;
+>>>>>>> refs/remotes/origin/main
 }
 
 header {
@@ -16,11 +89,14 @@ header article {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 main {
   background-color: #ffffff;
 }
 
 /*------Clases del Header-----------*/
+=======
+>>>>>>> refs/remotes/origin/main
 .topHeader {
   display: flex;
   flex-wrap: wrap;
@@ -61,7 +137,10 @@ main {
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
 .centerHeader div#logo {
   width: 80%;
   display: flex;
@@ -95,6 +174,7 @@ main {
   padding-bottom: 1%;
 }
 
+<<<<<<< HEAD
 .bottomHeader button {
   background-color: rgb(141, 74, 204);
   border: none;
@@ -108,6 +188,8 @@ main {
   width: 90%;
   border-radius: 10px;
   color: black;
+=======
+>>>>>>> refs/remotes/origin/main
 }
 
 .bottomHeader ul {
@@ -121,6 +203,7 @@ main {
   padding: 0.5%;
 }
 
+<<<<<<< HEAD
 .fa-magnifying-glass:before,
 .fa-search:before {
   color: white;
@@ -359,6 +442,8 @@ main article.detalleproductos {
   flex-wrap: wrap;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 @media (min-width: 481px) {
   .bottomHeader ul {
     display: flex;
@@ -375,6 +460,7 @@ main article.detalleproductos {
   }
 }
 
+<<<<<<< HEAD
 @media (min-width: 769px) {
   .productos {
     width: 21%;
@@ -398,3 +484,6 @@ main article.detalleproductos {
     padding: 0px 40px;
   }
 }
+=======
+@media (min-width: 769px) {
+>>>>>>> refs/remotes/origin/main
