@@ -11,9 +11,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/index.html"));
 });
 
-app.get("/register", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./views/register.html"));
+app.get("/index.html", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "./views/index.html"));
 });
+
 app.get("/login", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/login.html"));
 });
@@ -21,5 +22,4 @@ app.get("/login", (req, res) => {
 app.get("/producto", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/producto.html"));
 });
-
 
