@@ -1,8 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Fredoka One', cursive;
-  color: white;
+
 }
 
 div button.masproducto, div button.menosproducto {
@@ -76,7 +75,7 @@ div input.inputcantidaddeproducto {
 
 header {
   width: 100vw;
-  background-color: #8c52ff;
+  background-color: rgb(141, 74, 204);
 }
 
 header article {
@@ -84,70 +83,6 @@ header article {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-}
-
-main div.descripcionproducto {
-  padding: 25px;
-  width: 100%;
-}
-
-main article.detalleproductos {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-main h2 {
-  color: #45B1CE;
-  padding: 5px
-}
-
-main article.imagenproducto img {
-  height: auto;
-  max-width: 100%;
-  display: block;
-  padding: 25px;
-}
-
-main article.resumenproducto {
-  padding: 25px;  
-  width: 100%;
-}
-
-main h1.tituloresumenproducto {
-  color: #666666;
-  padding: 5px;
-}
-
-main p {
-  color: #666666;
-  padding: 5px
-}
-
-.register {
-  align-items: center;
-  background-color: rgb(154 158 158);
-  ;
-  padding: 20px;
-  display: flex;
-  flex-flow: column;
-}
-
-.register div {
-  margin-top: 5px;
-}
-
-.register input {
-  border-radius: 5px;
-  border: none;
-  color: black;
-  padding: 7px;
-  width: 50vw;
-
-}
-
-.register button {
-  color: rgb(111, 11, 204);
-  font-weight: 900;
 }
 
 .topHeader {
@@ -176,8 +111,7 @@ main p {
   flex-direction: row;
   justify-content: space-around;
   padding: 0.5%;
-  height: 10vh;
-  align-items: center;
+  height: 51px;
 }
 
 .centerHeader div#menu {
@@ -191,13 +125,10 @@ main p {
   justify-content: center;
   align-items: center;
 }
-
-.centerHeader form#searchBar {
-  width: 30%;
-}
-
 .centerHeader div#logo {
-  width: 40%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 .centerHeader div#usuario {
@@ -207,32 +138,26 @@ main p {
   align-items: center;
 }
 
-.centerHeader div#usuario i {
-  font-size: 1.5rem;
-}
-
 .centerHeader img {
-  width: 260px;
-  padding: 10px;
+  width: 27%;
 }
 
 .bottomHeader {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0.5%;
+  margin-top: 5px;
 }
 
 .bottomHeader form {
+  display: flex;
   width: 70%;
   margin: auto;
   padding-bottom: 1%;
 }
 
-.bottomHeader form input {
-  width: 90%;
-  border-radius: 5px;
-  border: none;
 }
 
 .bottomHeader ul {
@@ -243,36 +168,24 @@ main p {
 .bottomHeader li {
   /* color: white;*/
   display: inline-flex;
-  border: none;
-  border-radius: 6px;
   font-weight: bold;
   padding: 0.5%;
 }
 
-nav.menu {
-  align-items: center;
-  background-color: blueviolet;
-  display: flex;
-  height: 50px;
-  width: 100vw;
-}
-
 @media (min-width: 481px) {
   .bottomHeader ul {
-    display: inline-flex;
-    justify-content: space-around;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
   }
 
   .centerHeader #menu {
     display: none;
   }
+
+  .productos {
+    width: 40%;
+  }
 }
 
 @media (min-width: 769px) {
-
-main article.resumenproducto {
-  width: 40%;
-}
-
-}
